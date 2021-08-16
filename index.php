@@ -92,7 +92,7 @@ echo <<<HTML
 	}
 
 	.bg {
-	background-image: url(https://www.rgi-rn.ru/wp-content/uploads/2021/06/2fa-scaled.jpeg);
+	background-image: url(https://);
 	background-size: cover;
 	padding-top: 15%;
 	padding-left:33%;
@@ -117,7 +117,7 @@ echo <<<HTML
 
 	</style>
 <div class="bg">
-<div class"img"><img width="150px" height="150px" src="https://www.rgi-rn.ru/wp-content/uploads/2021/05/logo-color-finalv4-rounded-type.png"></div>
+<div class"img"><img width="150px" height="150px" src="https://"></div>
 <form name='phone' id='phone' method='post' class="transparent">
    <div class="form-inner">
 	 <h4>для доступа к запрашиваемому корпоративному ресурсу необходимо подтвердить номер вашего телефона</h4>
@@ -126,7 +126,7 @@ echo <<<HTML
 	<br>
      <input type="submit" value="Отправить">
 	<h5>* Нажимая на кнопку "Отправить", вы соглашаетесь на передачу, обработку и хранение переданных персональных данных, файлов Cookies, также, вы подтверждаете, 
- что вы уполномочены соответствующими привилегиями для доступа к данной ИС. О неисправностях ИС или некорректном функционировании необходимо сообщать по электронной почте: <a class="a" href="mailto://support@rgi-rn.ru">support@rgi-rn.ru</a> ИЛИ по телефону: <a class="a" href="tel://83432278808">8(343)227-88-08</a></h5>
+ что вы уполномочены соответствующими привилегиями для доступа к данной ИС. О неисправностях ИС или некорректном функционировании необходимо сообщать по электронной почте: <a class="a" href="mailto://">***********</a> ИЛИ по телефону: <a class="a" href="tel://83432278808">8(343)227-88-08</a></h5>
   </div>
 </div>
 </form>
@@ -154,7 +154,7 @@ ldap_set_option($ldap_connection, LDAP_OPT_REFERRALS, 0); // We need this for do
 if (TRUE === ldap_bind($ldap_connection, $ldap_username, $ldap_password)){
  
  //Your domains DN to query
-    $ldap_base_dn = 'DC=rgi-rn,DC=ru';
+    $ldap_base_dn = 'DC=***********';
   
  //Get standard users and contacts
     $search_filter = '(|(objectCategory=person)(objectCategory=contact))';
@@ -359,7 +359,7 @@ echo <<<HTML
 	}
 
 	.bg {
-	background-image: url(https://www.rgi-rn.ru/wp-content/uploads/2021/06/2fa-scaled.jpeg);
+	background-image: url(https://);
 	background-size: cover;
 	padding-top: 15%;
 	padding-left:33%;
@@ -373,7 +373,7 @@ echo <<<HTML
 	</style>
 
 <div class="bg">
-<div class"img"><img width="150px" height="150px" src="https://www.rgi-rn.ru/wp-content/uploads/2021/05/logo-color-finalv4-rounded-type.png"></div>
+<div class"img"><img width="150px" height="150px" src="https://"></div>
 <form name='pass' id='pass' method='post' class="transparent">
    <div class="form-inner">
      <h4>введите код из SMS</h4>
